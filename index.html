@@ -10,9 +10,21 @@
 
   <div id="container">
     <h1>Hello and Welcome!</h1>
-
+     
     <!-- The first step would be to create html so you have classes and ids to link -->
-    <!-- pictures to! -->
+    <!-- pictures to! --><div id="buttons-view"></div>
+
+    <form id="dinosaur-form">
+        <label for="dinosaur-input">Click to add a dinosaur!</label>
+        <input type="text" id="dinosaur-input">
+        <br>
+  
+        <!-- Button triggers new movie to be added -->
+        <input id="add-dinosaur" type="submit" value="Click to add a dinosaur!">
+      </form>
+  
+      <!-- Movies will Get Dumped Here -->
+      <div id="dinosaur-view"></div>
 
     <!-- secound step would be to create a ajax thing to connect to the api! -->
     <!-- Of course before that you would need to create a link to the api -->
