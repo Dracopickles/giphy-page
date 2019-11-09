@@ -4,27 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
   <title>Document</title>
 </head>
 <body>
 
-  <div id="container">
+  <div class="container">
     <h1>Hello and Welcome!</h1>
      
     <!-- The first step would be to create html so you have classes and ids to link -->
-    <!-- pictures to! --><div id="buttons-view"></div>
+    <!-- pictures to! -->
+    <div id="buttonsView"></div>
 
     <form id="dinosaur-form">
         <label for="dinosaur-input">Click to add a dinosaur!</label>
         <input type="text" id="dinosaur-input">
         <br>
   
-        <!-- Button triggers new movie to be added -->
+        <!-- Button triggers new dinosaur to be added -->
         <input id="add-dinosaur" type="submit" value="Click to add a dinosaur!">
       </form>
   
       <!-- Movies will Get Dumped Here -->
       <div id="dinosaur-view"></div>
+
+      
 
     <!-- secound step would be to create a ajax thing to connect to the api! -->
     <!-- Of course before that you would need to create a link to the api -->
@@ -32,7 +36,7 @@
 
   </div>
 
-  
-  
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="./assets/javascript/giphy.js"></script>
 </body>
 </html>
